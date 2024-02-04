@@ -1,24 +1,4 @@
-/*==================================================
-                header start
-==================================================*/
-
-/*----------------- top-bar -----------------*/
-
-/* contacts */
-
-/* social accounts */
-
-/*----------------- nav-bar -----------------*/
-
-/* logo */
-
-/* menu */
-
-/*==================================================
-                header end
-==================================================*/
-
-
+/* ------------- Custom Fonts -------------*/
 /* poppins-regular - latin */
 @font-face {
     font-display: block;
@@ -55,6 +35,24 @@
     src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2');
 }
 
+/* inter-regular - latin */
+@font-face {
+    font-display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2');
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-latin-500.woff2') format('woff2');
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -68,6 +66,15 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
 }
 
 input {
@@ -86,6 +93,96 @@ h4 {
     color: #707070;
 }
 
+
+.sec-title-typo,
+.item-title-typo,
+.item-price-typo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #1F1F1F;
+}
+
+.item-title-typo,
+.item-price-typo {
+    font-size: 24px;
+}
+
+.item-price-typo {
+    font-weight: 500;
+    color: #000000;
+}
+
+.text-typo,
+.panda-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+
+.panda-btn {
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 18px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(166deg, rgba(2, 0, 36, 1) 0%, rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: -4px;
+
+}
+
+
+.slider .carousel-item {
+    background: #feeae9;
+}
+
+.slider .carousel-item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #1F1F1F;
+}
+
+.slider .carousel-item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FF136F;
+}
+
+.panda-btn .bi-arrow-right {
+    margin-left: 8px;
+}
+
 .categories img {
     width: 100px;
 }
+
+
+
+
+
+/*==================================================
+                header start
+==================================================*/
+
+/*----------------- top-bar -----------------*/
+
+/* contacts */
+
+/* social accounts */
+
+/*----------------- nav-bar -----------------*/
+
+/* logo */
+
+/* menu */
+
+/*==================================================
+                header end
+==================================================*/
