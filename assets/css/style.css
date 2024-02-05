@@ -104,6 +104,13 @@ h4 {
     color: #1F1F1F;
 }
 
+.title-section span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF9D00;
+}
+
 .item-title-typo,
 .item-price-typo {
     font-size: 24px;
@@ -126,15 +133,16 @@ h4 {
     font-weight: 500;
     color: #FFFFFF;
     padding: 10px 25px 10px 18px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(166deg, rgba(2, 0, 36, 1) 0%, rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+    background-color: #000000;
     border-radius: 4px;
     display: inline-block;
     margin-top: -4px;
 
 }
 
-
+/*==================================================
+                slider start
+==================================================*/
 .slider .carousel-item {
     background: #feeae9;
 }
@@ -155,34 +163,77 @@ h4 {
     color: #FF136F;
 }
 
+/* button */
+.slider a.panda-btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(166deg, rgba(2, 0, 36, 1) 0%, rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+}
+
 .panda-btn .bi-arrow-right {
     margin-left: 8px;
 }
 
+/*==================================================
+                slider end
+==================================================*/
+
+
+/*==================================================
+                categories start
+==================================================*/
 .categories img {
     width: 100px;
 }
 
+.categories h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
 
+.bg-yg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(164deg, rgba(2, 0, 36, 1) 0%, rgba(255, 156, 53, 1) 0%, rgba(255, 208, 25, 1) 100%);
+}
 
+.bg-pg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(164deg, rgba(2, 0, 36, 1) 0%, rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+}
+
+.bg-bg {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(164deg, rgba(2, 0, 36, 1) 0%, rgba(66, 137, 255, 1) 0%, rgba(63, 7, 248, 1) 100%);
+}
+
+/*==================================================
+                categories end
+==================================================*/
 
 
 /*==================================================
-                header start
+            shoes and backpack Background
 ==================================================*/
+.shoes,
+.backpack {
+    background-color: #F4F4F4;
+}
 
-/*----------------- top-bar -----------------*/
+.cta {
+    padding: 75px 0;
+}
 
-/* contacts */
+.cta>.container {
+    padding: 145px 0;
+    background: #FFF2F1;
+}
 
-/* social accounts */
-
-/*----------------- nav-bar -----------------*/
-
-/* logo */
-
-/* menu */
-
-/*==================================================
-                header end
-==================================================*/
+.cta h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    line-height: 1.5;
+    color: #1F1F1F;
+}
