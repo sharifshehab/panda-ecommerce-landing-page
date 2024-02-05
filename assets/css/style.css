@@ -221,6 +221,9 @@ h4 {
     background-color: #F4F4F4;
 }
 
+/*==================================================
+                     CTA start
+==================================================*/
 .cta {
     padding: 75px 0;
 }
@@ -233,7 +236,36 @@ h4 {
 .cta h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    font-weight:600;
+    font-weight: 600;
     line-height: 1.5;
     color: #1F1F1F;
 }
+
+.cta form input[type=email] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1F1F1F;
+    padding: 15px 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.cta form input[type=email]::placeholder {
+    color: #CCCCCC;
+}
+
+.send-btn {
+    padding: 15px 40px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    background: #FF136F;
+    background: linear-gradient(166deg, rgba(2, 0, 36, 1) 0%, rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+/*==================================================
+                     CTA end
+==================================================*/
