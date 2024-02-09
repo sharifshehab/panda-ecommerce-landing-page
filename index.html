@@ -17,35 +17,39 @@
 
     <div id="front-page" class="front-page">
         <header>
-          
-
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="assets/images/logo.png" alt="" class="img-fluid">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
                             <a class="navbar-brand" href="#">
                                 <img src="assets/images/logo.png" alt="" class="img-fluid">
                             </a>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body  justify-content-between align-items-center">
 
-                            <!-- <form class="d-flex " role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form> -->
-
-                                    <div class="input-group mx-auto w-50">
-                                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-btn">
-                                        <button class="btn btn-outline-success" type="button" id="search-btn">Search</button>
-                                    </div>
+                            <div class="input-group mx-auto w-50 search-box">
+                                <input type="text" class="form-control rounded-pill position-relative z-1 "
+                                    placeholder="Search" aria-label="Search" aria-describedby="search-btn">
+                                <button class="search-btn btn position-absolute z-2 border-0" type="button"
+                                    id="search-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-5 h-6 search-icon">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                    </svg>
+                                </button>
+                            </div>
 
                             <ul class="navbar-nav pe-3 text-capitalize">
                                 <li class="nav-item">
@@ -65,7 +69,6 @@
                     </div>
                 </div>
             </nav>
-
             <!-- slider start -->
             <section class="slider mt-5">
                 <div class="container">
@@ -339,12 +342,9 @@
                 </div><!-- container -->
             </section>
             <!-- Cta end -->
-
-
-
-
         </main>
-        <footer>
+        <footer class="text-center py-3">
+            <p>Copyright © 2024 Panda. All rights reserved.</p>
         </footer>
     </div><!-- front-page -->
 
